@@ -1,179 +1,178 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>日本伝シンプルコーチング｜公式LP</title>
-  <meta name="description" content="短期間で速効性。武道理合×コーチングで、迷いを断ち切り行動を生む。" />
-  <style>
-    :root{
-      --bg:#0b1220;
-      --card:#0f1b33;
-      --text:#e9eefc;
-      --muted:#b9c3dd;
-      --accent:#66e3c4;
-      --accent2:#8fb5ff;
-      --line:rgba(255,255,255,.12);
-      --shadow: 0 20px 60px rgba(0,0,0,.35);
-      --radius: 18px;
-      --max: 1040px;
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", sans-serif;
-      color:var(--text);
-      background: radial-gradient(900px 600px at 20% 10%, rgba(143,181,255,.22), transparent 60%),
-                  radial-gradient(900px 600px at 80% 0%, rgba(102,227,196,.18), transparent 55%),
-                  var(--bg);
-      line-height:1.65;
-    }
-    a{color:inherit}
-    .wrap{max-width:var(--max); margin:0 auto; padding:24px}
-    header{
-      position:sticky; top:0; backdrop-filter: blur(10px);
-      background: rgba(11,18,32,.65); border-bottom:1px solid var(--line);
-      z-index:10;
-    }
-    .nav{display:flex; align-items:center; justify-content:space-between; gap:16px}
-    .brand{display:flex; gap:10px; align-items:center; font-weight:800; letter-spacing:.02em}
-    .dot{width:10px; height:10px; border-radius:99px; background:linear-gradient(135deg,var(--accent),var(--accent2))}
-    .btn{
-      display:inline-flex; align-items:center; justify-content:center;
-      padding:12px 16px; border-radius:999px; border:1px solid var(--line);
-      text-decoration:none; font-weight:700;
-      background: rgba(255,255,255,.04);
-    }
-    .btn.primary{
-      border-color: rgba(102,227,196,.5);
-      background: linear-gradient(135deg, rgba(102,227,196,.18), rgba(143,181,255,.12));
-      box-shadow: var(--shadow);
-    }
-    .hero{padding:44px 0 18px}
-    .grid{display:grid; gap:18px}
-    .heroGrid{grid-template-columns: 1.15fr .85fr}
-    @media (max-width: 920px){ .heroGrid{grid-template-columns:1fr} }
-    .kicker{color:var(--muted); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:12px}
-    h1{margin:10px 0 8px; font-size:42px; line-height:1.15}
-    @media (max-width: 520px){ h1{font-size:34px} }
-    .lead{color:var(--muted); font-size:16px; margin:0 0 18px}
-    .card{
-      background: rgba(15,27,51,.72);
-      border:1px solid var(--line);
-      border-radius: var(--radius);
-      padding:18px;
-      box-shadow: var(--shadow);
-    }
-    .pillRow{display:flex; flex-wrap:wrap; gap:10px; margin:18px 0 0}
-    .pill{padding:8px 10px; border-radius:999px; border:1px solid var(--line); color:var(--muted); font-size:13px}
-    section{padding:18px 0}
-    h2{font-size:22px; margin:0 0 10px}
-    .cols3{grid-template-columns: repeat(3, 1fr)}
-    @media (max-width: 920px){ .cols3{grid-template-columns:1fr} }
-    .muted{color:var(--muted)}
-    .ctaBox{display:flex; gap:14px; align-items:center; justify-content:space-between}
-    @media (max-width: 920px){ .ctaBox{flex-direction:column; align-items:stretch} }
-    .list{margin:10px 0 0; padding:0 0 0 18px}
-    footer{padding:28px 0 46px; color:var(--muted)}
-    .small{font-size:12px}
-    .hr{height:1px; background:var(--line); margin:18px 0}
-    .tag{font-weight:800; color:var(--accent)}
-  </style>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本伝シンプルコーチング 3級オンライン資格講座</title>
+    <style>
+        /* --- 基本設定 (レスポンシブ対応) --- */
+        :root {
+            --primary-color: #003366; /* 信頼の紺色 */
+            --accent-color: #d4af37;  /* ゴールド */
+            --soft-bg: #f4f7f6;       /* 優しい背景色 */
+            --text-color: #333;
+            --highlight: #eaf6ff;     /* 強調の背景色 */
+        }
 
-<body>
-  <header>
-    <div class="wrap nav">
-      <div class="brand"><span class="dot"></span> 日本伝シンプルコーチング</div>
-      <a class="btn primary" href="#apply">体験/相談の申込</a>
-    </div>
-  </header>
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.9; /* 読みやすく少し広めに */
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            letter-spacing: 0.05em;
+        }
 
-  <main class="wrap">
-    <section class="hero">
-      <div class="grid heroGrid">
-        <div>
-          <div class="kicker">Coaching / Education / Budo</div>
-          <h1>迷いを断ち、<span class="tag">行動</span>を生む。<br>短期間で速効性の「日本式」コーチング</h1>
-          <p class="lead">
-            武道理合×シンプルな対話設計で、頭の中のモヤを整理し、次の一手を“決め切る”。
-            経営・教育・人生のあらゆる局面で使える再現性をつくります。
-          </p>
-          <div class="pillRow">
-            <div class="pill">短期間で結果</div>
-            <div class="pill">言語化と意思決定</div>
-            <div class="pill">武道理合×心理学</div>
-            <div class="pill">教育事業家の実装</div>
-          </div>
-          <div style="margin-top:18px; display:flex; gap:10px; flex-wrap:wrap;">
-            <a class="btn primary" href="#apply">体験/相談の申込</a>
-            <a class="btn" href="#about">内容を見る</a>
-          </div>
-        </div>
+        /* --- レイアウト --- */
+        .container {
+            width: 100%;
+            max-width: 900px; /* 読み物として適切な幅 */
+            margin: 0 auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
 
-        <div class="card">
-          <h2>こんな方に</h2>
-          <ul class="list">
-            <li>やるべきことが多く、優先順位が決め切れない</li>
-            <li>売上や集客の打ち手が散らかっている</li>
-            <li>言葉がまとまらず、提案やLPが刺さらない</li>
-            <li>自分の軸（ブランド）がブレる</li>
-          </ul>
-          <div class="hr"></div>
-          <p class="muted small">
-            ※このLPはテンプレです。文章・見出し・申込導線を山村さん仕様に一緒に最適化できます。
-          </p>
-        </div>
-      </div>
-    </section>
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
 
-    <section id="about">
-      <div class="grid cols3">
-        <div class="card">
-          <h2>1. 設計</h2>
-          <p class="muted">“何を捨て、何に集中するか”を決める。目的→戦略→行動の順に整理。</p>
-        </div>
-        <div class="card">
-          <h2>2. 対話</h2>
-          <p class="muted">問いの質で、思考の質が変わる。短いやり取りで核心に到達。</p>
-        </div>
-        <div class="card">
-          <h2>3. 実装</h2>
-          <p class="muted">決めたことを“実際に動く形”まで落とし込む。次回までの宿題が明確。</p>
-        </div>
-      </div>
-    </section>
+        /* --- ヘッダー --- */
+        header {
+            background-color: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 80px 0;
+        }
+        .hero-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+        .hero-lead {
+            font-size: 1.1rem;
+            margin-top: 20px;
+            font-weight: normal;
+            opacity: 0.9;
+        }
+        
+        /* PCサイズ調整 */
+        @media (min-width: 768px) {
+            .hero-title { font-size: 2.8rem; }
+            .hero-lead { font-size: 1.3rem; }
+        }
 
-    <section>
-      <div class="card">
-        <h2>得られる変化</h2>
-        <ul class="list">
-          <li>優先順位が決まり、やることが減る（集中できる）</li>
-          <li>言葉が整い、提案・投稿・LPが速く強くなる</li>
-          <li>迷いが減り、意思決定が早くなる</li>
-          <li>行動が続く仕組みができる</li>
-        </ul>
-      </div>
-    </section>
+        /* --- セクション共通 --- */
+        section {
+            padding: 70px 0;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: var(--accent-color);
+            margin: 15px auto 0;
+        }
 
-    <section id="apply">
-      <div class="card ctaBox">
-        <div>
-          <h2>体験/相談の申込（仮）</h2>
-          <p class="muted" style="margin:6px 0 0;">
-            ここは後で「LINE」「フォーム」「予約リンク」などに差し替えます。
-          </p>
-        </div>
-        <a class="btn primary" href="https://example.com" target="_blank" rel="noopener">申込ボタン（後で差替）</a>
-      </div>
-    </section>
+        /* --- テキストブロック --- */
+        .text-block {
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        .center-text {
+            text-align: center;
+        }
 
-    <footer>
-      <div class="hr"></div>
-      <div class="small muted">
-        © 日本伝シンプルコーチング / コーチングLP（GitHub Pages）
-      </div>
-    </footer>
-  </main>
-</body>
-</html>
+        /* --- リスト・ボックス --- */
+        .feature-box {
+            background: var(--soft-bg);
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        .check-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .check-list li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .check-list li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+
+        /* --- 保証の枠 --- */
+        .guarantee-box {
+            border: 3px solid var(--accent-color);
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: #fff;
+            margin: 40px 0;
+        }
+        .guarantee-title {
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        /* --- 開催情報 --- */
+        .schedule-box {
+            background-color: var(--highlight);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .schedule-item {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px 0;
+            color: var(--primary-color);
+        }
+
+        /* --- CTAボタン --- */
+        .cta-section {
+            background-color: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .price-tag {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #fff; /* 背景が紺色なので白文字 */
+            margin: 20px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            background-color: #d4af37; /* ゴールド */
+            color: #fff;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0
