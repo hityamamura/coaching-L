@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本伝シンプルコーチング 3級オンライン資格講座</title>
+    <style>
+        /* --- 基本設定 (レスポンシブ対応) --- */
+        :root {
+            --primary-color: #003366; /* 信頼の紺色 */
+            --accent-color: #d4af37;  /* ゴールド */
+            --soft-bg: #f4f7f6;       /* 優しい背景色 */
+            --text-color: #333;
+            --highlight: #eaf6ff;     /* 強調の背景色 */
+        }
+
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.9; /* 読みやすく少し広めに */
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            letter-spacing: 0.05em;
+        }
+
+        /* --- レイアウト --- */
+        .container {
+            width: 100%;
+            max-width: 900px; /* 読み物として適切な幅 */
+            margin: 0 auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        /* --- ヘッダー --- */
+        header {
+            background-color: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 80px 0;
+        }
+        .hero-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+        .hero-lead {
+            font-size: 1.1rem;
+            margin-top: 20px;
+            font-weight: normal;
+            opacity: 0.9;
+        }
+        
+        /* PCサイズ調整 */
+        @media (min-width: 768px) {
+            .hero-title { font-size: 2.8rem; }
+            .hero-lead { font-size: 1.3rem; }
+        }
+
+        /* --- セクション共通 --- */
+        section {
+            padding: 70px 0;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: var(--accent-color);
+            margin: 15px auto 0;
+        }
+
+        /* --- テキストブロック --- */
+        .text-block {
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        .center-text {
+            text-align: center;
+        }
+
+        /* --- リスト・ボックス --- */
+        .feature-box {
+            background: var(--soft-bg);
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        .check-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .check-list li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .check-list li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+
+        /* --- 保証の枠 --- */
+        .guarantee-box {
+            border: 3px solid var(--accent-color);
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: #fff;
+            margin: 40px 0;
+        }
+        .guarantee-title {
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        /* --- 開催情報 --- */
+        .schedule-box {
+            background-color: var(--highlight);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .schedule-item {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px 0;
+            color: var(--primary-color);
+        }
+
+        /* --- CTAボタン --- */
+        .cta-section {
+            background-color: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .price-tag {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #fff; /* 背景が紺色なので白文字 */
+            margin: 20px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            background-color: #d4af37; /* ゴールド */
+            color: #fff;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0
